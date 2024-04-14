@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section id="background">
+            <img src="images/photo-1585202900225-6d3ac20a6962.avif" alt="green-fern-plant">
+            <figure id="odin-logo">
+                <img src="images/odin-logo.png" alt="odin-logo">
+                <figcaption>ODIN</figcaption>
+            </figure>
+        </section>
+
+        <section id="sign-up">
+            <article id="hero">
+                <div>This is not a real online service! You know that you need something
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.</div>
+                <p>You <em>know</em> you want to.</p>
+            </article>
+            <form action="" method="">
+                <div>Let's do this!</div>
+                <div id="user_name">
+                    <div><label for="first_name">FIRST NAME</label></div>
+                    <Input type="text" id="first_name" name="First_Name" maxlength="30"></Input> <br>
+
+                    <div class="last_name">
+                        <div><label for="last-name">LAST NAME</label></div>
+                        <input type="text" id="last-name" name="Last_Name" maxlength="30">
+                    </div>
+                </div>
+                <div id="user_details">
+                    <div><label for="email">EMAIL</label></div>
+                    <input type="email" id="email" name="email"> <br>
+
+                    <div class="phone_number">
+                        <div><label for="phone_number">PHONE NUMBER</label></div>
+                        <input type="number" id="phone_number" name="Phone_Number">
+                    </div>
+                </div>
+                <div id="user_password">
+                    <div><label for="password">PASSWORD</label></div>
+                    <input type="password" id="password" name="Password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"> <br>
+                    <p>*password do not match</p>
+                    <div class="confirm_password">
+                        <div><label for="">CONFIRM PASSWORD</label></div>
+                        <input type="password" id="password" name="Confirm-password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
+                    </div>
+                </div>
+            </form>
+            <div id="account">
+                <button type="submit">Create Account</button>
+
+                <p>Already have an account?<a href="#">Log in</a></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
